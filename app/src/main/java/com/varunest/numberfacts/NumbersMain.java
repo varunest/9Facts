@@ -386,8 +386,6 @@ public class NumbersMain extends FragmentActivity implements ModelToController {
             View rootView = inflater.inflate(R.layout.fragment_numbers_main, container, false);
             initViews(rootView);
             animator.onCreateAnimation(titleText, subtitleText, fullCrop, randomBtn, mathBtn, todayBtn, yearBtn, getFactsButton, croppedLayout);
-            showAds(rootView);
-
             return rootView;
         }
 
