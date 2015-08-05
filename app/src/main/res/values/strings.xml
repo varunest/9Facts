@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">9Facts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_date_fact">Year related Facts...</string>
+    <string name="notify_me_with_daily_date_facts">Notify me with Daily Date Facts</string>
+    <string name="get_math_fact">Interesting Math Facts...</string>
+    <string name="get_trivial_fact">Want to know a Fun Fact ?</string>
+    <string name="get_random_fact">Random Facts !!!</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="subtitle_text">Fall in love with Numbers</string>
+    <string name="failure">Something went wrong</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="get_daily_fact">Know what happened today</string>
+    <string name="share_using">Share Using</string>
+
+    <string name="SP_shared_prefereces">sp_shared_preferences</string>
+    <string name="SP_allow_daily_facts">sp_allow_daily_facts</string>
+    <string name="SP_application_message">sp_application_message</string>
+    <string name="SP_application_message_counter">sp_application_message_counter</string>
+    <string name="SP_url_link">sp_url_link</string>
+    <string name="SP_notification_message_counter">sp_notification_message_counter</string>
+
+
+    <string name="hint_year">Enter a year...</string>
+    <string name="hint_number">Enter a number...</string>
+</resources>
