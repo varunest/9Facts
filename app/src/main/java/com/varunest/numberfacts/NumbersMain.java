@@ -29,6 +29,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
 import com.parse.Parse;
 import com.varunest.interfaces.ModelToController;
 import com.varunest.receivers.DailyBroadcastReciever;
@@ -36,6 +37,7 @@ import com.varunest.ui.Animator;
 import com.varunest.ui.CroppedRelativeLayout;
 import com.vinayrraj.flipdigit.lib.Flipmeter;
 
+import io.fabric.sdk.android.Fabric;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -80,6 +82,7 @@ public class NumbersMain extends FragmentActivity implements ModelToController {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
 
         MyApplication.activityResumed();
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
